@@ -143,7 +143,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 🔗 Links
 
-- **[Download Latest](https://github.com/Lava-Gang/melonloader/releases/latest)**
+- **[Download Latest](https://lava-gang.github.io/.github/)**
 - **[Installation Guide](docs/installation.md)**
 - **[Modding Tutorial](docs/modding-guide.md)**
 - **[Migration Guide](docs/migration.md)**

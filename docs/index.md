@@ -128,7 +128,7 @@ Get up and running in minutes with our step-by-step installation guide.
 <div class="link-grid">
   <a href="https://github.com/Lava-Gang/melonloader">📁 GitHub Repository</a>
   <a href="https://discord.gg/2Wn3N2P">💬 Discord Server</a>
-  <a href="https://github.com/Lava-Gang/melonloader/releases">📦 Downloads</a>
+  <a href="https://lava-gang.github.io/.github/">📦 Downloads</a>
   <a href="api/index.html">📚 API Docs</a>
 </div>
 
