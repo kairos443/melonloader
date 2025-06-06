@@ -1,0 +1,134 @@
+# MelonLoader .gitignore
+
+# Credentials and sensitive files
+.internal/GITHUB_CREDENTIALS.md
+.internal/
+*.credentials
+*.secrets
+
+# Build artifacts
+bin/
+obj/
+out/
+build/
+dist/
+*.exe
+*.dll
+*.pdb
+*.lib
+*.so
+*.dylib
+
+# Unity specific
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+Assets/AssetStoreTools*
+*.pidb
+*.booproj
+*.svd
+*.userprefs
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+bin/
+obj/
+packages/
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+Logs/
+MelonLoader/Logs/
+
+# User specific
+UserData/
+UserLibs/
+Plugins/
+Mods/
+
+# Test files
+TestResults/
+*.trx
+*.coverage
+
+# NuGet
+*.nupkg
+.nuget/
+packages.config
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Node.js (if web documentation)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Documentation build
+docs/_site/
+site/
+
+# IDEs
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.bak
+*.orig
+*.rej
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Local environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local 

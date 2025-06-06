@@ -1,0 +1,128 @@
+title: "MelonLoader - Unity Game Modding Framework"
+description: "The ultimate Unity game modding framework. Create, install, and manage mods for Unity games with ease. Supports IL2CPP, Mono, and all modern Unity versions."
+url: "https://lava-gang.github.io"
+baseurl: "/melonloader"
+
+# SEO and social media
+author: "LavaGang"
+twitter:
+  username: LavaGangMods
+  card: summary_large_image
+social:
+  name: LavaGang
+  links:
+    - https://github.com/Lava-Gang
+    - https://discord.gg/2Wn3N2P
+
+# GitHub integration
+repository: "Lava-Gang/melonloader"
+github_username: Lava-Gang
+
+# Theme and styling
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Installation"
+    url: "/installation"
+  - title: "Documentation"
+    url: "/docs"
+  - title: "API Reference"
+    url: "/api"
+  - title: "Community"
+    url: "/community"
+
+# Content settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# Collections
+collections:
+  games:
+    output: true
+    permalink: /:collection/:name/
+  tutorials:
+    output: true
+    permalink: /:collection/:name/
+  api:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "LavaGang"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "games"
+    values:
+      layout: "game"
+  - scope:
+      path: ""
+      type: "tutorials"
+    values:
+      layout: "tutorial"
+
+# Site-wide keywords for SEO
+keywords: 
+  - unity modding
+  - game mods
+  - melonloader
+  - unity mods
+  - il2cpp mods
+  - unity game modding
+  - mod loader
+  - unity mod framework
+  - game modification
+  - unity hacking
+  - unity injection
+  - mod manager
+  - unity tools
+  - game enhancement
+  - unity plugin
+
+# Analytics (replace with your tracking ID)
+google_analytics: UA-XXXXXXXX-X
+
+# Comments (using Disqus)
+disqus:
+  shortname: melonloader
+
+# Performance optimization
+sass:
+  style: compressed
+
+# Build settings
+future: false
+show_drafts: false
+limit_posts: 10 
